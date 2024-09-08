@@ -1,0 +1,239 @@
+/*
+------------------------------------------
+Navigation Bar Styling 
+------------------------------------------
+*/
+.nav-bar ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    color: gray;
+}
+
+.nav-bar li {
+    margin: 40px 20px;
+}
+
+/* Logo Styling */
+.logo {
+    position: relative;
+    left: 54px;
+    width: 60px;
+    height: 60px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+}
+
+/* Button Styling */
+.btn {
+    width: 100px;
+    height: 40px;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid #c5c509;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+
+@media only screen and (min-width:350px) and (max-width:400px) {
+    header {
+        height: 97px;
+    }
+
+    .nav-bar {
+        margin-inline: 10px;
+    }
+
+    .nav-bar li a {
+        font-size: 8px;
+    }
+
+    .nav-bar li {
+        margin-top: 31px;
+        margin-bottom: 14px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .nav-bar .user-menu {
+        padding-top: 17px;
+        margin-bottom: 0;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .logo {
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+    }
+
+    .cart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn {
+        width: 28px;
+        height: 24px;
+        font-size: 8px;
+        margin: 0 1px;
+    }
+
+    .mg-b {
+        width: 33px;
+        height: 25px;
+        margin-top: 40px;
+    }
+
+    .nav-bar li:last-child {
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .btn {
+        width: 24px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .mg-b {
+        width: 24px;
+        height: 35px;
+        margin: 3px 0px;
+    }
+
+    .nav-bar li:last-child {
+        margin-top: 23px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    header {
+        height: 97px;
+    }
+
+    .nav-bar {
+        margin-inline: 10px;
+    }
+
+    .nav-bar li a {
+        font-size: 8px;
+    }
+
+    .nav-bar li {
+        margin: 40px 14px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .logo {
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+    }
+
+    .cart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn {
+        width: 28px;
+        height: 24px;
+        font-size: 8px;
+        margin: 0 1px;
+    }
+
+    .mg-b {
+        width: 33px;
+        height: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 510px) and (max-width: 900px) {
+    header {
+        height: 97px;
+    }
+
+    .nav-bar {
+        margin-inline: 50px;
+    }
+
+
+    .nav-bar li a {
+        font-size: 8px;
+    }
+
+    .nav-bar li {
+        margin: 40px 24px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .logo {
+        left: 0px;
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+    }
+
+    .cart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn {
+        width: 28px;
+        height: 24px;
+        font-size: 8px;
+        margin: 0 1px;
+    }
+
+    .mg-b {
+        width: 33px;
+        height: 25px;
+    }
+}

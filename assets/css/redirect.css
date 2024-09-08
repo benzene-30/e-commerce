@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.re-header {
+    text-align: center;
+}
+
+/* 
+-------------------------------------
+Logo
+-------------------------------------
+*/
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* 
+-------------------------------------
+Login Redirect
+-------------------------------------
+*/
+
+#login-redirect h1 {
+    font-size: 20px;
+    margin: 70px 0px;
+    text-align: center;
+}
+
+#login-redirect h1 a {
+    color: red;
+    text-decoration: underline;
+}
+
+#login-redirect h1 a:hover {
+    color: rgb(102, 185, 217);
+}

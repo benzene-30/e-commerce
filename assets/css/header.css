@@ -1,0 +1,11 @@
+/*
+   -------------------------------------------------
+   Header Section 
+   -------------------------------------------------
+  */
+header {
+  background-color: #c5c509;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 120px;
+}
