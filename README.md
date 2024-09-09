@@ -15,7 +15,7 @@ This is an e-commerce platform built with PHP, MySQL, HTML, CSS, and JavaScript.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/e-commerce.git
+   git clone https://github.com/benz-19/e-commerce.git
    ```
 
 2. Move the cloned folder to your `htdocs` directory (or the directory where your server is running):
