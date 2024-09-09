@@ -13,7 +13,7 @@
 
                 <div class="cart-header">
                     <a href="../products/cart.php">
-                        <img src="../assets/images/cart.png" alt="Cart image" class='cart'>
+                        <img src="./assets/images/cart.png" alt="Cart image" class='cart'>
                         <span class="cart-count"><?php echo $cart_count; ?></span>
                     </a>
                 </div>
