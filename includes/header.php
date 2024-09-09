@@ -1,7 +1,7 @@
 <header>
     <nav class="nav-bar">
         <ul>
-            <li><a href="#"><img src="./assets/images/logo.png" alt="logo" class='logo'></a></li>
+            <li><a href="#"><img src="../assets/images/logo.png" alt="logo" class='logo'></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
